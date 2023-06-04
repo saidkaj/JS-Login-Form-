@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+td {
+    border: 1px solid #ffff;
+}
+
+tr:first-child td,
+tr td:first-child {
+    border: none;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
