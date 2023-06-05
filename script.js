@@ -1,4 +1,4 @@
-let chessboard = document.getElementById("chessBoard");
+let chess = document.getElementById("chessBoard");
 
 let letter = "ABCDEFGH";
 
@@ -11,8 +11,8 @@ for (let i = 0; i < 9; i++) {
             j == 0 ? i : ''
             }</td>`;
     }
-    boardIndex += "</tr>";
+    boardIndex += `</tr>`;
 }
 
-chessboard.innerHTML = boardIndex;
+chess.innerHTML = boardIndex;
 
